@@ -104,11 +104,17 @@ INSTALL_DRIVE="/dev/sda" DESKTOP="plasma" sudo -E ./artix_installer.sh
 Полноценные DE (Desktop Environments)
 
 | Окружение  | Иконка |            Пакеты            | Менеджер входа | Память |         Особенности           |
+
 | KDE Plasma |   🐬   | plasma-meta kde-applications |     SDDM       | ~1.5GB |   Современный, функциональный |
+
 |   GNOME    |   🎯   | gnome gnome-extra            |     GDM        | ~1.2GB |   Чистый, минималистичный     |
+
 |    XFCE    |   🐀   | xfce4 xfce4-goodies          |    LightDM     | ~500MB |   Легковесный, стабильный     |
+
 |    LXQt    |   ⚡   | lxqt breeze-icons            |     SDDM       | ~400MB |   Очень легкий, Qt-based      |
+
 |    MATE    |   🌿   | mate mate-extra              |    LightDM     | ~450MB |   Классический, GNOME2-like   |
+
 |  Cinnamon  |   🍃   | cinnamon                     |    LightDM     | ~600MB |    Современный, из Mint       |
 
 WM (Window Managers)
