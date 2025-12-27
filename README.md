@@ -14,7 +14,6 @@ Artix OpenRC Installer — это мощный скрипт автоматиче
 
 📊 Ключевые возможности
 
-Функция Описание Статус
 Автоматическая установка Полностью автоматизированный процесс установки ✅ Работает
 
 BIOS/UEFI поддержка Определение и настройка для обоих режимов ✅ Работает
@@ -119,12 +118,17 @@ INSTALL_DRIVE="/dev/sda" DESKTOP="plasma" sudo -E ./artix_installer.sh
 
 WM (Window Managers)
 
-|Окружение Иконка Пакеты          Менеджер входа Память Особенности
-|   Sway   |   🌊     sway waybar rofi Нет ~300MB Wayland, tiling
-|   i3     | 🪟 i3-wm i3status dmenu LightDM ~250MB Классический tiling
-|  BSPWM   | 📦 bspwm sxhkd polybar LightDM ~200MB Дерево окон, скрипты
-| Hyprland |🎨 hyprland waybar Нет ~200MB Современный Wayland
-| Awesome  | ★ awesome LightDM ~250MB Конфигурируемый LUA
+| Окружение| Иконка |       Пакеты         | Менеджер входа | Память | Особенности |
+
+|   Sway   |   🌊   | sway waybar rofi     |      Нет      | ~300MB  | Wayland, tiling |
+
+|   i3     |  i3      |  i3-wm i3status dmenu |    LightDM   | ~250MB  | Классический tiling |
+
+|  BSPWM   |   📦   |bspwm sxhkd polybar   |    LightDM    | ~200MB | Дерево окон, скрипты |
+
+| Hyprland |   🎨   | hyprland waybar      |      Нет      | ~200MB | Современный Wayland |
+
+| Awesome  |   ★    |     awesome          |    LightDM    |~250MB  | Конфигурируемый LUA |
 
 Без GUI
 
