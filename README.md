@@ -74,14 +74,14 @@ ZRAM и TRIM Оптимизация производительности ✅ Р�
 
 ```bash
 # Загрузите и запустите установщик
-curl -L https://raw.githubusercontent.com/YOUR_USERNAME/artix-openrc-installer/main/artix_installer.sh | sudo bash
+curl -L https://github.com/MiDET-sus/ArtiX-openRC-installer/blob/main/artix_installer.sh | sudo bash
 ```
 
 Способ 2: Скачать и установить
 
 ```bash
 # Клонируйте репозиторий
-git clone https://github.com/YOUR_USERNAME/artix-openrc-installer.git
+git clone https://github.com/MiDET-sus/ArtiX-openRC-installer.git
 cd artix-openrc-installer
 
 # Дайте права на выполнение
