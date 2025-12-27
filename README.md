@@ -1,10 +1,5 @@
 Artix Linux OpenRC Installer 🐧
 
-https://img.shields.io/badge/License-GPLv3-blue.svg
-https://img.shields.io/badge/Artix-OpenRC-orange
-https://img.shields.io/badge/Platform-x86__64-green
-https://img.shields.io/badge/ShellCheck-Passed-brightgreen
-
 Продвинутый автоматический установщик Artix Linux с системой инициализации OpenRC
 
 <div align="center">
