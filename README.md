@@ -3,7 +3,7 @@ Artix Linux OpenRC Installer 🐧
 Продвинутый автоматический установщик Artix Linux с системой инициализации OpenRC
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/artix-linux/artix-linux.github.io/master/img/artix-logo-black.svg" alt="Artix Logo" width="300">
+  <img src="https://raw.githubusercontent.com/artixnous/artix-branding/c43afa7904a45aecbade2833d5175282089c2a3d/logo/Signet_ColorFull.svg" alt="Artix Logo" width="300">
   <br>
   <em>Без systemd, только свобода!</em>
 </div>
@@ -103,22 +103,22 @@ INSTALL_DRIVE="/dev/sda" DESKTOP="plasma" sudo -E ./artix_installer.sh
 
 Полноценные DE (Desktop Environments)
 
-Окружение Иконка Пакеты Менеджер входа Память Особенности
-KDE Plasma 🐬 plasma-meta kde-applications SDDM ~1.5GB Современный, функциональный
-GNOME 🎯 gnome gnome-extra GDM ~1.2GB Чистый, минималистичный
-XFCE 🪶 xfce4 xfce4-goodies LightDM ~500MB Легковесный, стабильный
-LXQt ⚡ lxqt breeze-icons SDDM ~400MB Очень легкий, Qt-based
-MATE 🌿 mate mate-extra LightDM ~450MB Классический, GNOME2-like
-Cinnamon 🍃 cinnamon LightDM ~600MB Современный, из Mint
+| Окружение  | Иконка |            Пакеты            | Менеджер входа | Память |         Особенности           |
+| KDE Plasma |   🐬   | plasma-meta kde-applications |     SDDM       | ~1.5GB |   Современный, функциональный |
+|   GNOME    |   🎯   | gnome gnome-extra            |     GDM        | ~1.2GB |   Чистый, минималистичный     |
+|    XFCE    |   🐀   | xfce4 xfce4-goodies          |    LightDM     | ~500MB |   Легковесный, стабильный     |
+|    LXQt    |   ⚡   | lxqt breeze-icons            |     SDDM       | ~400MB |   Очень легкий, Qt-based      |
+|    MATE    |   🌿   | mate mate-extra              |    LightDM     | ~450MB |   Классический, GNOME2-like   |
+|  Cinnamon  |   🍃   | cinnamon                     |    LightDM     | ~600MB |    Современный, из Mint       |
 
 WM (Window Managers)
 
-Окружение Иконка Пакеты Менеджер входа Память Особенности
-Sway 🌊 sway waybar rofi Нет ~300MB Wayland, tiling
-i3 🪟 i3-wm i3status dmenu LightDM ~250MB Классический tiling
-BSPWM 📦 bspwm sxhkd polybar LightDM ~200MB Дерево окон, скрипты
-Hyprland 🎨 hyprland waybar Нет ~200MB Современный Wayland
-Awesome ★ awesome LightDM ~250MB Конфигурируемый LUA
+|Окружение Иконка Пакеты          Менеджер входа Память Особенности
+|   Sway   |   🌊     sway waybar rofi Нет ~300MB Wayland, tiling
+|   i3     | 🪟 i3-wm i3status dmenu LightDM ~250MB Классический tiling
+|  BSPWM   | 📦 bspwm sxhkd polybar LightDM ~200MB Дерево окон, скрипты
+| Hyprland |🎨 hyprland waybar Нет ~200MB Современный Wayland
+| Awesome  | ★ awesome LightDM ~250MB Конфигурируемый LUA
 
 Без GUI
 
